@@ -103,7 +103,7 @@ const LandingPage = () => (
           {/* <SparrowIcon className="w-10 h-10 mr-2" /> */}
           <Image src="/ssui.svg" alt="UST Logo" width={40} height={40} />
 
-          <h1 className="text-3xl font-bold text-[#CE4F3D]">Sparrow Sift UI</h1>
+          <h1 className="text-3xl font-bold text-[#CE4F3D]">Sparrow Sift AI</h1>
         </div>
         <nav>
           <a href="#about">
@@ -135,13 +135,25 @@ const LandingPage = () => (
 
     <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 lg:mt-16 lg:px-8">
       <div className="text-center">
-        <h2 className="text-4xl tracking-tight font-extrabold text-black sm:text-5xl md:text-6xl">
-          <span className="block">Create Dynamic UIs</span>
-          <span className="block text-[#CE4F3D]">with AI-Powered Tools</span>
+        <h2 className="text-3xl tracking-tight font-extrabold text-black sm:text-5xl md:text-6xl">
+          <span className="block">Boost Dev Efficiency with AI</span>
+          <span className="block text-[#CE4F3D]">
+            Smart Docs, Migrations, and Prototypes
+          </span>
         </h2>
         <p className="mt-3 max-w-md mx-auto text-base text-black sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-          Sparrow Sift UI empowers developers to rapidly prototype and build
-          interactive UI elements and mini-apps using various AI models.
+          Sparrow Sift empowers developers to create full recursive code
+          documentation, design step-by-step migration workflows, perform
+          comprehensive code reviews, and rapidly prototype UI elements or build
+          mini-apps from scratch, all with AI-assisted precision.
+        </p>
+        <p className="mt-3 max-w-md mx-auto text-base text-black sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+          While AI-assisted code editors like Cursor are powerful, Sparrow Sift
+          UI is uniquely designed for technically-inclined non-developers.
+          It&apos;s LLM-agnostic, allowing you to integrate any LLM API
+          endpoint, and can be self-hosted for complete control. This
+          flexibility makes it an invaluable tool for those bridging the gap
+          between development and other technical domains.
         </p>
         <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
           <Link href="./aiflow">
@@ -292,7 +304,7 @@ const LandingPage = () => (
     </main>
 
     <footer className="mt-20 py-8 px-4 sm:px-6 lg:px-8 text-center text-black">
-      <p>&copy; 2024 Sparrow Sift UI. All rights reserved.</p>
+      <p>&copy; 2024 Sparrow Sift. All rights reserved.</p>
     </footer>
   </div>
 );
